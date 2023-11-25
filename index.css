@@ -1,0 +1,611 @@
+.root{
+    margin: 0;
+    width: 100%;
+    background-image: url('./images/Desktop.png');
+    background-size: cover;
+    color: #E4E5EA;
+}
+.header{
+    width: 79%;
+    margin: 0 auto;
+    margin-top: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 73px;
+    align-items: flex-start;
+}
+.header__logo-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    width: 140px;
+    margin-top: 11px;
+}
+.header__logo{
+    width: 140px;
+    height: 24px;
+}
+.header__logo-text{
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+   
+}
+.header___menu{
+    display: flex;
+    flex-direction: row;
+    width: 503px;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-top: 15px;
+}
+.header__link{
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #E4E5EA;
+   
+}
+.header__contact{
+    display: flex;
+    flex-direction: row;
+    column-gap: 47px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.header__phone{
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.header__icons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__telegram{
+    width: 20px;
+    height: 20px;
+    background-image: url('./images/telegram.svg');
+    cursor: pointer;
+}
+.header__viber{
+    width: 20px;
+    height: 20px;
+    background-image: url('./images/viber.svg');
+    cursor: pointer;
+}
+.header__whats{
+    width: 20px;
+    height: 20px;
+    background-image: url('./images/whatsapp.svg');
+    cursor: pointer;
+    
+}
+.main{
+    width: 79%;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main__prew{
+    max-width: 362px;
+    
+}
+.main__title{
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.main__title-2{
+    margin: 0;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+  background-image: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.main__text{
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 275px;
+}
+.main__consult{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-end;
+}
+.main__subtitle{
+font-family: 'Inter';
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: right;
+margin: 0;
+
+}
+.main__subtitle-2{
+    margin: 0;
+font-family: 'Inter';
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.05em;
+text-align: right;
+background-image: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-transform: uppercase;
+}
+.main__table{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: flex-start;
+}
+.main__table-mobile{
+    display: none;
+}
+.main__table-1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: flex-start;
+  
+    justify-content: right;
+}
+.main__section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+.main__table-title{
+    font-family: 'Inter';
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0.05em;
+text-align: right;
+text-transform: uppercase;
+margin: 0;
+}
+.main__table-text{
+    font-family: 'Montserrat';
+    margin: 0;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: right;
+
+}
+.main__btn{
+    margin-top: 61px;
+    width: 262px;
+    height: 61px;
+    background: #4077F3;
+    font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+border: none;
+color: #E4E5EA;
+cursor: pointer;
+}
+.footer{
+    width: 79%;
+    margin: 0 auto;
+    margin-top: 124px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer__about{
+    display: flex;
+    flex-direction: column;
+}
+.footer__title{
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 700;
+line-height: 17px;
+letter-spacing: 0.05em;
+text-align: left;
+color: #656566;
+margin: 0;
+margin-bottom: 20px;
+}
+.footer__link{
+    text-decoration: none;
+    color: #E4E5EA;
+    margin-bottom: 10px;
+    font-family: 'Inter';
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+.footer__menus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 50px;
+}
+.footer__menu{
+    display: flex;
+    flex-direction: column;
+}
+.footer__menu-2{
+    margin-top: 37px;
+}
+.footer__contact{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-end;
+}
+.footer__phone{
+    font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: right;
+margin: 0;
+margin-bottom: 21px;
+
+}
+.footer__icons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-bottom: 19px;
+}
+.footer__telegram{
+    width: 20px;
+    height: 20px;
+    background-image: url('./images/telegram.svg');
+    cursor: pointer;
+}
+.footer__viber{
+    width: 20px;
+    height: 20px;
+    background-image: url('./images/viber.svg');
+    cursor: pointer;
+}
+.footer__whats{
+    width: 20px;
+    height: 20px;
+    background-image: url('./images/whatsapp.svg');
+    cursor: pointer;
+    
+}
+.footer__addr{
+    margin: 0;
+    font-family: 'Inter';
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: right;
+margin-bottom: 70px;
+
+}
+.footer__rights{
+    margin: 0;
+    font-family: 'Montserrat';
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: right;
+margin-bottom: 5px;
+}
+.footer__politic{
+    margin: 0;
+    font-family: 'Montserrat';
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: right;
+text-decoration: underline;
+color: #E4E5EA;
+margin-bottom: 20px;
+}
+@media (max-width: 321px) {
+    .header{
+        width: 320px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 60px;
+        align-items: center;
+        background-color: black;
+    }
+    .header__logo-container{
+        display: none;
+    }
+    .header___menu{
+        display: flex;
+        flex-direction: row;
+        width: 288px;
+        justify-content: space-between;
+        column-gap: 15px;
+        margin-top: 0px;
+        margin: 0 auto;
+    }
+    .header__link{
+        text-transform: uppercase;
+        font-size: 13px;
+       
+    }
+    .header__link_s{
+        display: none;
+    }
+    .header__contact{
+        display: none;
+    }
+  
+    .main{
+        width: 100%;
+   
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .main__prew{
+        max-width: none;
+        margin-left: 15px;
+        
+    }
+    .main__title{
+font-size: 36px;
+font-weight: 400;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+    .main__title-2{
+font-size: 36px;
+font-weight: 900;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+    background-image: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .main__text{
+        margin: 0;
+        margin-top: 15px;
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+    .main__consult{
+        margin-top: 45px;
+        width: 100%;
+        margin-left: 15px;
+        align-items: flex-start;
+    }
+    .main__subtitle{
+        text-align: left;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0;
+    
+    }
+    .main__subtitle-2{
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0em;
+    background-image: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    }
+    .main__table{
+        display: none;
+    }
+    .main__table-mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        column-gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 55px;
+    }
+    .mob__col{
+        display: flex;
+        flex-direction: column;
+        row-gap: 14px;
+    }
+    .mob__text{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        text-transform: uppercase;
+        margin: 0;
+        
+    }
+    
+    
+    .mob__text-2{
+        font-family: 'Montserrat';
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        background-image: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+    }
+    .main__btn{
+        display: none;
+    }
+    .footer{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0px;
+        padding-top: 45px;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        align-items: flex-start;
+    }
+    .footer__about{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__title{
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    .footer__link{
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+    .footer__menus{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 50px;
+        margin-top: 20px;
+    }
+    .footer__menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__menu-2{
+        margin-top: 37px;
+    }
+    .footer__contact{
+       align-items: flex-start;
+       margin-top: 20px;
+    }
+    .footer__phone{       
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+    margin-bottom: 8px;
+    
+    }
+    .footer__icons{   
+        margin-bottom: 10px;
+    }
+    .footer__telegram{
+        width: 24px;
+        height: 24px;
+       background-size: cover;
+    }
+    .footer__viber{
+        width: 24px;
+        height: 24px;
+        background-size: cover;
+    }
+    .footer__whats{
+        width: 24px;
+        height: 24px;
+        background-size: cover;
+    }
+    .footer__addr{
+        margin: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+    margin-bottom: 50px;
+    
+    }
+    .footer__rights{
+        margin: 0;
+        font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-bottom: 5px;
+    }
+    .footer__politic{
+        margin: 0;
+        font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: right;
+    text-decoration: underline;
+    color: #E4E5EA;
+    margin-bottom: 60px;
+    }
+}
